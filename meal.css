@@ -1,0 +1,71 @@
+body {
+    background-image: url(assets/images/bg.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: cursive;
+}
+
+#backdrop {
+    height: 100vh;
+    backdrop-filter: blur(2px);
+    margin: 0%;
+}
+
+.section {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(245, 245, 245, 0.7);
+}
+
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#meal-img {
+    width: 20%;
+    border-radius: 50%;
+    box-shadow: -2px -2px 10px grey;
+}
+
+.intro div {
+    width: 70%;
+}
+
+#tags span {
+    padding: 5px;
+    margin: 5px;
+    background-color: lightgray;
+    border-radius: 4px;
+}
+
+.ingredients ol {
+    width: 30%;
+    height: 100px;
+    overflow: hidden;
+    border-bottom: 6px solid rgba(100, 100, 100, 0.1);
+}
+
+#more {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section:has(#meal-video) {
+    text-align: center;
+}
+
+#meal-video {
+    width: 50%;
+    height: 350px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: -2px -2px 8px grey;
+}
