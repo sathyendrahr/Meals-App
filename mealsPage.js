@@ -72,6 +72,7 @@ async function updateDetails(mealId) {
   }
 }
 
+// This functions is to have expand/contract behavior of ingredinets section based on some conditions
 function showMoreLess() {
   const list = document.querySelector(".ingredients ol");
 

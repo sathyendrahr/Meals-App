@@ -66,6 +66,7 @@ function renderFavorites() {
 
 /* Meals Suggestions */
 
+// Debouncing to improve performance - where we are introducing some delay for consecutive API call
 const useDebounce = (func, delay) => {
   let timeout = null;
 
